@@ -10,7 +10,7 @@ interface Card {
   status: Status;
 }
 
-const API_URL = 'http://localhost:8000'; // Replace with Cloud Run URL later
+const API_URL = 'https://kanban-backend-1-6598.onrender.com/'; // Replace with Cloud Run URL later
 
 export default function App() {
   const [cards, setCards] = useState<Card[]>([]);
